@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Serif:opsz,wght@8..144,500&family=Roboto:wght@900&display=swap');
+
+
+.font_chu {
+    font-family: 'Calistoga', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+
+.body_gratitude{
+    position: absolute;
+    height: 1080px;
+    top: 100px;
+}
+
+.Container {
+    position: relative;
+    justify-content: center;
+}
+
+.body {
+    width: 100%;
+    height: 1080px;
+    background-color: #FFF;
+    position: absolute;
+    top: 50px;
+}
+
+.head_body {
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 54.6px;
+
+}
+
+.head_body h1 {
+    color: rgba(48, 140, 90, 1);
+}
+
+.head_body p {
+
+    width: 76%;
+    height: 227px;
+    left: 86px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_search {
+    width: 329px;
+    height: 42px;
+    border: 1px solid black;
+    padding-left: 10px;
+    float: right;
+}
+
+.search_parents {
+    position: relative;
+    width: 76%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icon_search {
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    left: 1075px;
+}
+
+.div_table {
+    position: relative;
+    width: 100%;
+}
+
+.div_table table {
+    position: absolute;
+    width: 76%;
+    height: 571px;
+    left: 190px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.div_table th {
+    height: 30px;
+    border-bottom: 1px solid rgba(162, 162, 162, 1);
+}
+
+.div_table td {
+    border-bottom: 1px solid rgba(162, 162, 162, 1);
+    text-align: center;
+}
+
+.pagination {
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.pagination button {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: #FFF;
+    border: none;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.pagination-button{
+    width: 200px;
+}
+
+.footer_gratitude {
+    position: absolute;
+    top: 1200px;
+    width: 85%;
+
+
+}
+
+.pagination-button.active {
+    background-color: rgba(96, 207, 147, 1);
+  }
