@@ -48,6 +48,10 @@ const Login = () => {
         });
       }
     } catch (error) {
+      notification.error({
+        message: 'Thông báo',
+        description: 'Tài khoản hoặc mật khẩu không chính xác',
+      });
       console.log('Failed to fetch ping role: ' + error);
     }
   };
